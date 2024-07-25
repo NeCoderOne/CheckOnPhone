@@ -80,6 +80,6 @@
 
 .title-hightlight__svg{
   position: absolute;
-  inset: -10px;
+  inset: 0px;
   z-index: 10;
 }

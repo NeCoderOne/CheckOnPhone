@@ -4,11 +4,11 @@ let clientsSwiper = new Swiper(".clients__swiper", {
     prevEl: ".clients__swiper-btn-left",
   },
   simulateTouch: true,
-  slidesPerView: 1.5,
-  spaceBetween: 20,
+  slidesPerView: 1.1,
+  spaceBetween: 15,
   breakpoints: {
     // when window width is >= 320px
-    500: {
+    700: {
       slidesPerView: 2.5,
       spaceBetween: 32,
     },

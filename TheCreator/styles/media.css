@@ -79,6 +79,9 @@
   .charity__card-text {
     font-size: 18px;
   }
+  .clients__slide-card {
+    padding: 12px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -197,13 +200,16 @@
     scale: 0.5;
     display: block;
   }
+
   .we-do__left-hand {
-    left: -90px;
-    top: -100px;
+    left: -93px;
+    top: -23%;
+    transform: rotate(336deg);
   }
+
   .we-do__left-heart {
-    top: 280px;
-    left: 78px;
+    top: 79%;
+    left: 0px;
   }
   .we-do__left-vector {
     top: 0;
@@ -219,15 +225,9 @@
     width: 48px;
     margin-bottom: 10px;
   }
-  .clients__card-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
+
   .clients__card-text {
     font-size: 16px;
-  }
-  .clients__slide-card {
-    padding: 12px;
   }
   .charity__cards {
     margin-bottom: 64px;
@@ -265,7 +265,7 @@
     font-size: 36px;
   }
   .we-do__text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .benefits__text-title {
     font-size: 30px;
@@ -297,12 +297,28 @@
   .top-content__text {
     font-size: 16px;
   }
+  .visual-part__right-hand {
+    top: 0%;
+    right: 0;
+    width: 25%;
+  }
+  .visual-part__right-facebook {
+    top: 238px;
+  }
+  .visual-part__right-bulb {
+    top: 0;
+    right: 88%;
+    width: 66px;
+    transform: rotateZ(7deg);
+  }
+  .visual-part__right-ytb {
+    top: 0;
+    right: 158px;
+  }
   .we-do__sub-title {
     font-size: 20px;
   }
-  .we-do__text {
-    font-size: 12px;
-  }
+
   .benefits__grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -336,9 +352,6 @@
   }
   .clients__text {
     margin-bottom: 22px;
-  }
-  .clients__card-text {
-    font-size: 10px;
   }
   .footer__title {
     font-size: 32px;
@@ -376,17 +389,18 @@
   .charity__card-text {
     font-size: 16px;
   }
-  .footer__text {
-    font-size: 14px;
-    margin-bottom: 64px;
-  }
+
   .footer__nav-link {
     font-size: 14px;
+  }
+  .charity__card-content {
+    padding-left: 22px;
+    padding-right: 22px;
   }
 }
 @media (max-width: 426px) {
   .top-content__title {
-    font-size: 30px;
+    font-size: 29px;
   }
   .partners__content-text {
     font-size: 16px;
@@ -405,9 +419,11 @@
   }
   .we-do__sub-title {
     font-size: 16px;
+    margin-bottom: 15px;
   }
   .we-do__sub-title {
     font-size: 14px;
+    margin-bottom: 15px;
   }
   .we-do__left-vector {
     left: -50%;
@@ -423,7 +439,7 @@
     margin-left: 5px;
   }
   .clients__card-img {
-    width: 32px;
+    width: 56px;
     margin-bottom: 10px;
   }
   .charity__card-title {
@@ -437,10 +453,7 @@
     font-size: 26px;
     margin-bottom: 7px;
   }
-  .footer__text {
-    font-size: 12px;
-    margin-bottom: 64px;
-  }
+
   .footer__nav-link {
     font-size: 10px;
   }
@@ -451,7 +464,7 @@
     font-size: 16px;
   }
   .visual-part__right-hand {
-    top: 315px;
+    top: 296px;
     width: 150px;
   }
   .visual-part__right-bulb {
@@ -470,18 +483,17 @@
     font-size: 14px;
   }
   .charity__card-title {
-    font-size: 26px;
+    font-size: 38px;
     margin-bottom: 15px;
   }
   .charity__card-text {
-    font-size: 12px;
+    font-size: 16px;
   }
   .footer__title {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 7px;
   }
   .footer__text {
-    font-size: 10px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
   }
 }
