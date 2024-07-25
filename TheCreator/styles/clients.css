@@ -1,0 +1,113 @@
+.clients__inner {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.clients__epigraph {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 64px;
+}
+.clients__title {
+  font-size: 0px;
+  line-height: 1.2;
+  margin-bottom: 64px;
+  font-weight: 700;
+}
+.clients__title-img {
+  display: block;
+  width: 64px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.clients__title-text {
+  display: inline-flex;
+  font-size: 56px;
+  align-items: center;
+}
+.clients__title-img-wrapper {
+  align-self: center;
+}
+.clients__highlight {
+  position: relative;
+}
+.clients__highlight-vector {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.clients__highlight-vector.title__highlight-vector {
+  top: 0;
+}
+
+.clients__sub-title {
+  font-size: 56px;
+  line-height: 1.6;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.clients__highlight-vector.subTitle__highlight-vector {
+  bottom: 0;
+}
+
+.clients__text {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 416px;
+  margin-bottom: 55px;
+}
+
+.clients__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__slider {
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.clients__swiper {
+  width: calc(((100vw - 100%) / 2) + 98%);
+}
+
+.clients__swiper-controls {
+  display: flex;
+  gap: 16px;
+  margin-right: -80px;
+}
+.clients__swiper-btn{
+  width: 40px;
+  cursor: pointer;
+}
+
+.swiper-wrapper {
+}
+
+.clients__slide-card {
+  padding: 24px 56px;
+  background-color: #ffadf2;
+  border-radius: 16px;
+}
+.clients__card-img {
+  width: 80px;
+  margin-bottom: 16px;
+}
+.clients__card-title {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.clients__card-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.swiper-slide-next > .clients__slide-card {
+  background-color: var(--contrast);
+}

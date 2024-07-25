@@ -1,0 +1,45 @@
+.charity__inner {
+  padding-top: 64px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.charity__cards {
+  display: flex;
+  margin-bottom: 64px;
+  gap: 32px;
+}
+.charity__card {
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 24px;
+  border-radius: 16px;
+}
+
+.charity__card:first-child {
+  background-color: var(--contrast);
+}
+.charity__card:last-child {
+  background-color: #fff;
+}
+
+.charity__card-vector {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.charity__card-text {
+  max-width: 400px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.charity__card-title {
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.charity__card-content {
+  padding-left: 56px;
+  padding-right: 56px;
+}

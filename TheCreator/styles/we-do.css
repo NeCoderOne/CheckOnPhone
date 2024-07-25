@@ -1,0 +1,90 @@
+.we-do {
+  overflow: hidden;
+  position: relative;
+}
+.we-do__inner{
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.we-do__visual {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.we-do__visual-part {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.we-do__visual-left {
+}
+.we-do__visual-img {
+  position: absolute;
+  display: block;
+}
+.we-do__left-hand {
+  top: -140px;
+  left: 0;
+}
+.we-do__left-heart {
+  width: 121px;
+  top: 280px;
+  left: 210px;
+  transform: rotateZ(-15deg);
+}
+.we-do__left-vector {
+  top: 0;
+  left: -5%;
+  z-index: -1;
+  height: 100%;
+}
+
+.we-do__visual-right {
+}
+.we-do__right-vector {
+  top: 128px;
+  right: -120px;
+}
+.we-do__right-hand {
+  bottom: -92px;
+  right: 0;
+}
+.we-do__right-heart {
+  width: 121px;
+  top: 213px;
+  right: 225px;
+  transform: rotateZ(15deg);
+}
+.container {
+}
+.we-do__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  position: relative;
+}
+.we-do__title {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 760px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.we-do__sub-title {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 815px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.we-do__text {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 691px;
+  text-align: center;
+  margin-bottom: 94px;
+}

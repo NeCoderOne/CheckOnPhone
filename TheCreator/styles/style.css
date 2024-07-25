@@ -1,0 +1,47 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./top-content.css);
+@import url(./top-content-visual.css);
+@import url(./partners.css);
+@import url(./woman.css);
+@import url(./we-do.css);
+@import url(./benefits.css);
+@import url(./clients.css);
+@import url(./charity.css);
+@import url(./footer.css);
+@import url(./burger-nav.css);
+@import url(./media.css);
+
+:root {
+  --text-color: #1f392c;
+  --contrast: #ff60e6;
+  --background: #f8f5f0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: var(--background);
+  color: var(--text-color);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  padding: 12px 32px;
+  background-color: var(--contrast);
+  border-radius: 100px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.medium {
+  font-weight: 500;
+}
