@@ -10,6 +10,7 @@
 @import url(./charity.css);
 @import url(./footer.css);
 @import url(./burger-nav.css);
+@import url(./loader.css);
 @import url(./media.css);
 
 :root {
@@ -43,7 +44,7 @@ body {
   transition: background-color 0.25s ease;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ffadf2;
 }
 
