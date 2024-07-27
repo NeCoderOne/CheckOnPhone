@@ -40,6 +40,11 @@ body {
   border-radius: 100px;
   text-decoration: none;
   color: var(--text-color);
+  transition: background-color 0.25s ease;
+}
+
+.btn:hover{
+  background-color: #ffadf2;
 }
 
 .medium {

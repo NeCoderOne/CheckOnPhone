@@ -21,10 +21,10 @@
 .woman__img-wrapper {
   width: fit-content;
   background-color: var(--contrast);
-  
   mask-repeat: no-repeat;
   mask-size: cover;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 .woman__visual-wrapper:after {
   content: "";
@@ -40,6 +40,7 @@
 .woman__visual-icon {
   position: absolute;
   top: 0;
+  z-index: -1;
 }
 
 .woman__other-imgs {
@@ -57,7 +58,6 @@
   z-index: -1;
   stroke-dashoffset: 0;
   stroke-dasharray: 0;
-  transition: all 2s ease;
 }
 
 .img-1 {

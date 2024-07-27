@@ -60,4 +60,5 @@
 }
 .footer__social-link {
   width: 31px;
+  display: block;
 }

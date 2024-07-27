@@ -19,7 +19,14 @@
   width: 64px;
   margin-right: 16px;
   margin-left: 16px;
+  border-radius: 16px;
+  transition: outline 0.1s ease;
 }
+
+.clients__title-img:hover{
+  outline: 3px solid var(--contrast);
+}
+
 .clients__title-text {
   display: inline-flex;
   font-size: 56px;
