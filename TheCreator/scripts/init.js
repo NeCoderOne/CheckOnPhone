@@ -9,9 +9,11 @@ import { woman } from "./woman.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
+window.addEventListener("DOMContentLoaded", () => {
+  loader();
+});
 
 window.addEventListener("load", () => {
-  deleteLoader();
   partnersSwiper();
   clientsSwiper();
   burger();
@@ -19,5 +21,5 @@ window.addEventListener("load", () => {
   woman();
   weDo();
   benefits();
-  loader();
+  deleteLoader();
 });
